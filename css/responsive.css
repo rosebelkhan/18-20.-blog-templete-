@@ -1,0 +1,122 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 488px) and (max-width: 767px){
+    .single-blog-item, .newsletter-area {
+        margin-bottom: 50px;
+    }
+    .footer-area{
+        margin-top: 50px;
+    }
+    .main-menu li {
+        padding-left: 16px;
+    }
+    .footer-area .text-right a {
+        padding-left: 12px;
+    }
+    .newsletter-area h2 {
+        margin-bottom: 40px;
+        font-size: 28px;
+    }
+    .newletter-form {
+        max-width: 330px;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .main-menu li {
+        padding-left: 22px;
+    }
+    .single-blog-item, .newsletter-area {
+        margin-bottom: 70px;
+    }
+    .footer-area{
+        margin-top: 70px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .main-menu li {
+        padding-left: 55px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .single-blog-item, .newsletter-area {
+        margin-bottom: 120px;
+    }
+    .footer-area{
+        margin-top: 120px;
+    }
+    .main-menu li {
+        padding-left: 80px;
+    }
+}
+
+@media only screen and (max-width: 487px) {
+    .logo {
+        padding: 25px 0;
+        text-align: center;
+    }
+    .main-menu li {
+        padding: 4px;
+        display: inline-block;
+        font-size: 12px;
+    }
+    .main-menu ul {
+        text-align: center;
+    }
+    .main-menu {
+        padding: 12px 0;
+    }
+    .single-blog-item {
+        margin-bottom: 40px;
+    }
+    .newsletter-area {
+        padding: 28px 0;
+        margin-bottom: 60px;
+    }
+    .newsletter-area h2 {
+        margin-bottom: 15px;
+    }
+    
+    .newletter-form {
+        max-width: 250px;
+    }
+    .newletter-form button{
+        top: 0%;
+    }
+    a.load-more-btn {
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+    .load-more-btn-wrapper{
+        margin: 0px auto;
+        text-align: center;
+    }
+    .footer-area {
+        margin-top: 50px;
+        padding: 40px 0;
+        text-align: center;
+    }
+    .footer-area ul li a {
+        padding: 10px;
+    }
+    .col-md-6.col-sm-4.text-right {
+        text-align: center !important;
+    }
+    .footer-area .text-right a {
+        padding-left: 12px;
+        display: inline-block;
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 1.3rem;
+    }
+    p.blog-meta a {
+        font-size: 12px;
+    }
+}
+
